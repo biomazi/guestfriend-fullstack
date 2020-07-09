@@ -1,0 +1,8 @@
+query TASKS {
+  tasks {
+    id
+    text
+    status
+    updatedAt
+  }
+}

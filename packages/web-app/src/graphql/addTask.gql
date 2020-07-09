@@ -1,0 +1,7 @@
+mutation ADD_TASK($text: String!, $status: String!) {
+  addTask(text: $text, status: $status) {
+    id
+    text
+    status
+  }
+}

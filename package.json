@@ -1,0 +1,24 @@
+{
+  "name": "root",
+  "private": true,
+  "description": "Guestfriend",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "start": "lerna run start --scope web-*",
+    "start:web": "lerna run start --scope standalone-web",
+    "clean": "lerna clean --yes",
+    "lint": "lerna run --stream lint"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "6.3.0",
+    "eslint-plugin-react": "7.20.0",
+    "eslint-plugin-react-hooks": "4.0.0",
+    "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "web-app": "file:packages\\web-app",
+    "web-server": "file:packages\\web-server"
+  }
+}
