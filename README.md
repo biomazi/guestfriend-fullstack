@@ -16,7 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm start:web`
+### `npm run start:web`
 
 Runs the standalone web-app in the development mode.<br />
 It doesn't use server present in package web-server
